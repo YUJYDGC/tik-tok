@@ -12,7 +12,7 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 ffmpeg.setFfprobePath(ffprobePath);
 
 // التوكن والقناة من ملف .env
-const BOT_TOKEN = process.env.BOT_TOKEN;
+const BOT_TOKEN = "8251129715:AAGNNz4ojB1B79oZWmCC4bwfXjc5g-U3K8k"
 const CHANNEL_ID = process.env.CHANNEL_ID;
 const bot = new Telegraf(BOT_TOKEN);
 
